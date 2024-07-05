@@ -19,7 +19,7 @@ public static void main(String[] args) {
 	System.out.println("Test1");
 	System.out.println("Test2");
 	WebElement txtUser = driver.findElement(By.name("email"));
-	txtUser.sendKeys("pandipandi");
+	txtUser.sendKeys("pandipandis");
 	WebElement txtpass = driver.findElement(By.id("pass"));
 	txtpass.sendKeys("12345");
 	WebElement btn = driver.findElement(By.name("login"));
