@@ -16,8 +16,10 @@ public static void main(String[] args) {
 	driver.get("https://www.facebook.com/");
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	System.out.println("Test1");
+	System.out.println("Test2");
 	WebElement txtUser = driver.findElement(By.name("email"));
-	txtUser.sendKeys("Revathi");
+	txtUser.sendKeys("pandipandis");
 	WebElement txtpass = driver.findElement(By.id("pass"));
 	txtpass.sendKeys("12345");
 	WebElement btn = driver.findElement(By.name("login"));
